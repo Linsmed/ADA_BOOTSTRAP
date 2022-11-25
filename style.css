@@ -1,0 +1,93 @@
+.row {
+  padding: 10px solid coral;
+}
+.col-lg-4 {
+  background-color: aquamarine;
+  padding: 6px aolid red;
+
+  width: 20%;
+}
+
+img {
+  border: 0rem;
+  width: 30%;
+  margin-left: 30%;
+  margin-top: 10px;
+  margin-bottom: 5%;
+
+  padding: 0;
+  background-color: aliceblue !important;
+}
+.new {
+  text-decoration: none;
+  text-decoration-color: silver;
+  color: silver;
+}
+.card {
+  border-top-left-radius: 50px;
+  border-bottom-left-radius: 50px;
+  border-top-right-radius: 0;
+  border-bottom-right-radius: 0;
+  margin-left: 30px;
+  margin-top: 50px;
+}
+
+#side {
+  margin-top: 50px;
+}
+
+.bot {
+  border-radius: 200px;
+  width: 0.1%;
+  border-color: azure;
+  background-color: rgb(204, 210, 216);
+  align-items: center;
+}
+
+.btn {
+  width: 25%;
+  padding: 7px;
+  border-radius: 100px !important;
+  background-color: black !important;
+  margin-left: 30%;
+}
+
+.bott {
+  width: 5%;
+  background-color: beige;
+  border-radius: 100px;
+  border-color: beige;
+  text-align: center;
+  margin-left: 30%;
+}
+
+h5 {
+  margin-left: 30%;
+}
+.pi {
+  margin-left: 30%;
+}
+
+h4 {
+  margin-top: 75%;
+  margin-left: 30%;
+  font-style: italic;
+  font-family: "Times New Roman", Times, serif;
+}
+.welcome {
+  margin-left: 25%;
+}
+
+.pass {
+  margin-left: 10%;
+}
+
+hr {
+  width: 60%;
+  margin-left: 20%;
+}
+
+.forgot {
+  margin-left: 50%;
+  color: green;
+}
