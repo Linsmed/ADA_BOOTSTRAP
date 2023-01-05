@@ -1,6 +1,6 @@
-const button = document.getElementById("submit-btn");
+const button = document.getElementById("btn");
 
-const form = document.loginForm;
+const form = document.myForm;
 
 button.addEventListener("click", (event) => {
   if (!form.email.value) {
@@ -15,11 +15,11 @@ button.addEventListener("click", (event) => {
     alert("Password is empty");
     return;
   }
-  if (form.password.value.length < 6 || form.password.value.length > 8) {
-    alert("Password should have a minimum length of 6 and maximum lenght of 8");
+  if (form.password.value.length < 8 || form.password.value.length > 10) {
+    alert("Password must  have a minimum length of 8 and maximum lenght of 10");
     return;
   }
-  alert("Login Successful");
+  alert("You have succesfully logged in");
   return;
 });
 
